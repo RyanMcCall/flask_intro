@@ -13,4 +13,4 @@ def roll_dice():
 
 @app.route('/roll-3-dice')
 def roll_3_dice():
-    return str(random.randint(1, 6)) + str(random.randint(1, 6)) + str(random.randint(1, 6))
+    return 'Roll 1:' + str(random.randint(1, 6)) + ' Roll 2:' + str(random.randint(1, 6)) + ' Roll 3:' + str(random.randint(1, 6))
