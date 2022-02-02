@@ -1,0 +1,7 @@
+<h1>Spam Detector</h1>
+<form action="/run-spam-detector" method="POST">
+    <label for="text_to_check">Text to check:</label>
+    <input id="text_to_check" type="text" name="text_to_check">
+    <br />
+    <input type="submit" />
+<h2>Result: {{ prediction }}</h2>
